@@ -1,5 +1,5 @@
 import Color from "./Color";
-// Parses RGBa to an array of Numbers
+// Parse RGBa to an array of Numbers
 const parseRGBa = (input) => {
     return input.split("(")[1].split(")")[0].split(",").map(p => Number(p.trim()));
 }
@@ -53,8 +53,7 @@ export default class Gradient {
                 this.min = min;
                 this.max = max;
                 this.splice = Math.round((max - min) / (this.ankerColorPoints.length - 1));
-                this.colors = createGradient(this.colors, this.splice);
-                console.log(this.colors);
+                this.colors = createGradient(this.colors, this.splice).map(c => new Color(c));
                 this.pointsCount = this.colors.length;
             } else throw new Error(`Range cannot be smaller than ${this.pointsCount} points.`);
         } else {
