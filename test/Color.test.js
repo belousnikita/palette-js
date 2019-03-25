@@ -1,4 +1,3 @@
-import colorslist from '../src/colorslist';
 import Color from '../src/Color';
 
 test('Matching color', () => {
