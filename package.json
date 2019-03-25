@@ -1,0 +1,31 @@
+{
+  "name": "palette",
+  "version": "1.0.0",
+  "description": "Tool for creating color palettes and gradiens.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chern0us/palette-js.git"
+  },
+  "keywords": [
+    "color",
+    "colors",
+    "gradient",
+    "palette",
+    "rgb",
+    "hex"
+  ],
+  "author": "chern0us",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chern0us/palette-js/issues"
+  },
+  "homepage": "https://github.com/chern0us/palette-js#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.2",
+    "jest": "^24.5.0"
+  }
+}
