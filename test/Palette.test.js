@@ -24,10 +24,10 @@ describe('Correct colors count', () => {
     })
     test('Shade normal', () => {
         const palette = new Palette('shade', 'red');
-        expect(palette.color).toEqual('red');
+        expect(palette.ankerColorPoints).toEqual(['white', 'red', 'black']);
     })
     test('Shade than more 1 color', () => {
         const palette = new Palette('shade', 'red', 'blue', 'yellow');
-        expect(palette.color).toEqual('red');
+        expect(palette.ankerColorPoints).toEqual(['white', 'red', 'black']);
     })
 })
