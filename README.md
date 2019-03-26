@@ -11,7 +11,7 @@ or
 $ yarn add bg-canvases
 ```
 
-#API
+##API
 
 ### new Palette(type, ...colors)
 
@@ -60,5 +60,5 @@ const blueRedYellow = new Palette('gradient', 'blue', 'red'); // Creates gradien
 
 blueRedYellow.setPointsRange(0, 25);
 
-const colors = blueRedYellow.color; // => [ Color {}, Color {} ... ] 
+const colors = blueRedYellow.colors; // => [ Color {}, Color {} ... ] 
 ```
