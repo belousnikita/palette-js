@@ -62,3 +62,19 @@ blueRedYellow.setPointsRange(0, 25);
 
 const colors = blueRedYellow.colors; // => [ Color {}, Color {} ... ] 
 ```
+
+### Example 
+```javascript
+
+  const shadeOfBlue = new Palette("shade", "blue");
+
+  const gradient = new Palette("gradient", "#40cff7", "#d05ddd", "yellow");
+
+  shadeOfBlue.setPointsRange(0, 22);
+
+  gradient.setPointsRange(0, 45);
+```
+Result: 
+![Result](http://i.piccy.info/i9/7e398462de3e7a23f06295111bd21de4/1553594289/64646/1309699/Snymok_ekrana_ot_2019_03_26_11_45_53.png)
+
+[![Edit color-palette-js demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/m54oxkz6m8?fontsize=14)
