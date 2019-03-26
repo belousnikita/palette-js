@@ -1,8 +1,9 @@
 {
-  "name": "palette",
+  "name": "color-palette-js",
   "version": "1.0.0",
   "description": "Tool for creating color palettes and gradiens.",
-  "main": "index.js",
+  "main": "./src/Palette.js",
+  "types": "./src/Palette.d.ts",
   "scripts": {
     "test": "jest"
   },
@@ -18,7 +19,7 @@
     "rgb",
     "hex"
   ],
-  "author": "chern0us",
+  "author": "belousnikita",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chern0us/palette-js/issues"
