@@ -48,3 +48,12 @@ test('Setting range 4 - 4 should throw Error', () => {
     const palette = new Palette('gradient', 'red', 'blue', 'green');
     expect(() => palette.setPointsRange(4, 4)).toThrowError();
 })
+test('Get color', () => {
+    const palette = new Palette('gradient', 'red', 'blue', 'green');
+    palette.setPointsRange(10, 13);
+    expect(palette.getColor(10).hex).toEqual("#ff0000");
+    expect(palette.getColor(11).hex).toEqual("#ff0000");
+    expect(palette.getColor(12).hex).toEqual("#0000ff");
+    expect(palette.getColor(13).hex).toEqual("#008000");
+    const palette2 = new Palette('gradient', 'as', 'as');
+})
