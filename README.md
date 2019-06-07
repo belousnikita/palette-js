@@ -4,11 +4,11 @@ Tool for creating color palettes and gradiens.
 # Installation 
 
 ```sh
-$ npm install bg-canvases
+$ npm install color-palette-js
 ```
 or
 ```sh
-$ yarn add bg-canvases
+$ yarn add color-palette-js
 ```
 
 ##API
